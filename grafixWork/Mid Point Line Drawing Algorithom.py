@@ -1,7 +1,5 @@
 import matplotlib
 import matplotlib.pyplot as plt
-
-
 def DDA(x0, y0, x1, y1):
     dx = abs(x1 - x0)
     dy = abs(y1 - y0)
@@ -26,13 +24,9 @@ def DDA(x0, y0, x1, y1):
         ylist.append(round(y0, 1))
     plt.plot(xlist, ylist, linestyle="--", marker="*")
     plt.show
-
-
-8
 # main func
 x0 = int(input("Enter x0 :"))
 y0 = int(input("Enter y0 :"))
 x1 = int(input("Enter x1 :"))
 y1 = int(input("Enter y1 :"))
 DDA(x0, y0, x1, y1)
-
