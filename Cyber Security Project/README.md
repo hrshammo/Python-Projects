@@ -4,10 +4,11 @@ This project is a Python script that provides functionality for generating passw
 
 ## How to Use
 Clone or download the repository from GitHub.
-Ensure you have Python installed on your system.
+Ensure that you have Python installed on your system.
 Open a terminal or command prompt and navigate to the project directory.
 Run the script by executing the following command: python password_generator.py.
-Follow the on-screen instructions to perform the desired operations.
+Follow the on-screen instructions to perform the desired operations.  <br>
+
 ![image](https://github.com/hrshammo/Python/assets/76872754/2252ee1f-8ff9-4e55-9964-a5945a8205a3)
 
 ## Features
@@ -16,6 +17,7 @@ This option allows you to check the strength of a given password. It analyzes th
 
 Length: The length of the password must be at least 8 characters for a "Weak" rating, 12 characters for a "Moderate" rating, and greater than 12 characters for a "Strong" rating.
 Character Types: The password must contain a combination of uppercase letters, lowercase letters, special characters, and numbers.
+ <br>
 ![image](https://github.com/hrshammo/Python/assets/76872754/aa6f1d27-e594-4d32-a2bc-4a038620fcb6)
 
 ### 2. Generate Password
@@ -26,12 +28,15 @@ Small Alphabets (lowercase letters)
 Special Characters
 Numbers
 The generated password will be displayed, along with its strength rating.
+ <br>
+ 
 ![image](https://github.com/hrshammo/Python/assets/76872754/7ab6bb37-418c-4fe7-aaea-b28e656b835f)
 
 ### 3. Generate Passwords for Payload
 This option generates a list of passwords within a specified length range. You can define the range (e.g., 3 to 6) and select the desired password options. The passwords will be saved to a file named "passwords.txt" in the project directory.
+ <br>
 ![image](https://github.com/hrshammo/Python/assets/76872754/2a0251b5-f80e-4a88-8cc4-7baecf924de3)
-![image](https://github.com/hrshammo/Python/assets/76872754/80e83bfd-71da-48ee-9fab-c581374f71bd)
+![image](https://github.com/hrshammo/Python/assets/76872754/80e83bfd-71da-48ee-9fab-c581374f71bd)  <br>
 ![image](https://github.com/hrshammo/Python/assets/76872754/4e88f071-96e4-45d4-8b3b-54c003362e07)
 
 
