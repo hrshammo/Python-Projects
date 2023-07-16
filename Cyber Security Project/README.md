@@ -29,13 +29,15 @@ This option generates a list of passwords within a specified length range. You c
 Please note that the generated passwords should be used responsibly and in accordance with security best practices. It is recommended to store passwords securely and avoid sharing them or using them for sensitive accounts.
 
 ## Dependencies
+
 The script requires Python 3 and utilizes the following modules:
 
-string: Provides a collection of commonly used string constants.
-itertools.product: Generates the Cartesian product of input iterables.
-random: Generates random numbers and makes use of the random.choice() function.
-sys: Provides access to some variables used or maintained by the interpreter and functions that interact with the interpreter.
-To ensure the required dependencies are available, you can run the following command: pip install -r requirements.txt.
+- `string`: Provides a collection of commonly used string constants.
+- `itertools.product`: Generates the Cartesian product of input iterables.
+- `random`: Generates random numbers and makes use of the random.choice() function.
+- `sys`: Provides access to some variables used or maintained by the interpreter and functions that interact with the interpreter.
+
+To ensure the required dependencies are available, you can run the following command: `pip install -r requirements.txt`.
 
 ## Contributions
 Contributions to this project are welcome. If you encounter any issues, have suggestions for improvements, or would like to add new features, please feel free to submit a pull request on GitHub.
