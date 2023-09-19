@@ -16,8 +16,12 @@ def draw(event,x,y,flags,params):
         flag=True
         ix=x
         iy=y
-    if event==0
-        cv2.rectangle(img,pt1=(ix,iy), pt2=(x+10,y+34), color=(0,0,0),thickness=2)
+    elif event==4:
+        flag=False
+        cv2.rectangle(img, pt1=(ix, iy), pt2=(x + 10, y + 34), color=(0, 0, 0), thickness=2)
+        crop_img=img[iy:y,ix:x]
+        cv2.imshow("cropped",crop_img)
+        cv2.waitKey(0)
 cv2.namedWindow(winname="Window")
 cv2.setMouseCallback("Window",draw)
 while True:
